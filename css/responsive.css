@@ -1,0 +1,180 @@
+@media (max-width:1300px) {
+    .bio-video{
+        height: 690px;
+    }
+}
+@media (max-width:1199px) {
+    .bio-video{
+        height: 637px;
+    }
+}
+@media (max-width:1199px) and (min-width: 992px) {
+
+}
+@media (max-width:991px) {
+
+    #main-header{
+        background: #fff;
+        height: 70px;
+        position: fixed;
+    }
+    .main-menu ul.main-ul{
+        background: #fff;
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0;
+        display: none;
+    }
+    .main-menu ul.main-ul li{
+        display: block;
+        float: none;
+        text-align: right;
+        direction: rtl;
+    }
+    .main-menu .main-ul > li > a{
+        color: #000;
+    }
+    .menu-icon span{
+        background: #000 !important;
+    }
+    .menu-icon{
+        top: 30px;
+    }
+    .sub-menu{
+        display: block;
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        background: #fff;
+        border: 0;
+        color: #989898;
+        padding: 0;
+    }
+    .sub-menu a:hover {
+        color: #989898;
+    }
+    .sub-menu a::after{
+        background: #fff;
+    }
+    .sub-menu{
+        display: none;
+    }
+    .main-menu .main-ul > li > a,
+    .main-menu .main-ul > li {
+        line-height: 40px;
+        cursor: pointer;
+        display: block;
+    }
+    .visible-mobile{
+        display: block !important;
+    }
+    .main-menu .main-ul > li > a > i{
+        float: left;
+        color: #6d6d6d;
+        font-size: 18px;
+    }
+    .main-menu .main-ul > li > a::after{
+        display: none;
+    }
+    .mega-menu ul{
+        width: 100%;
+        float: none;
+        border: 0;
+        padding: 0 !important;
+    }
+    .mega-men-1st-li ul > li{
+        display: none !important;
+    }
+    .mega-men-1st-li ul > li:first-child{
+        display: block !important;
+    }
+    .mega-men-1st-li ul > li:first-child a{
+        color: #a9a9a9 !important;
+        font: 13px/43px yekan !important;
+    }
+    .site-int-titles h2{
+        font-size: 32px;
+    }
+    .site-int-titles {
+        padding-top: 106px;
+    }
+    .site-int-titles h4 {
+        margin: 0 0 14px;
+    }
+    .bio-video{
+        margin-top: 36px;
+    }
+    .body-bg{
+        background-size: 200% auto;
+    }
+    .bio-video{
+        height: 536px;
+    }
+    .bio-videoplayer span{
+        width: 90%;
+    }
+}
+
+@media (max-width:991px) and (min-width: 768px) {
+
+}
+
+@media (max-width:767px) {
+    .site-int-titles h2{
+        font-size: 22px;
+    }
+    .site-int-titles {
+        padding-top: 95px;
+    }
+    .site-int-titles h4 {
+        margin: 0 0 5px;
+    }
+    .bio-video{
+        margin-top: 36px;
+    }
+    .bio-video{
+        height: 390px;
+    }
+    .bio-videoplayer video{
+        width: 90%;
+        height: auto;
+    }
+    .social-links-parent{
+        display: none !important;
+    }
+
+}
+@media (max-width:767px) and (min-width: 480px) {
+
+}
+@media (max-width:580px) {
+    .bio-video{
+        height: 300px;
+    }
+}
+@media (max-width:479px) {
+    .bio-video{
+        height: 255px;
+    }
+}
+
+@media (max-width:390px) {
+    .bio-video{
+        height: 240px;
+    }
+}
+
+@media (max-width:320px) {
+    .bio-video{
+        height: 220px;
+    }
+    .site-int-titles h2 {
+        font-size: 20px;
+    }
+    .site-int-titles h4{
+        font-size: 13px;
+    }
+}

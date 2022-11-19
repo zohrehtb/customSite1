@@ -1,0 +1,120 @@
+*, *:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+@media (min-width:480px) {
+    .container {
+        width:85%
+    }
+}
+.container:before,
+.container:after {
+    content:" ";
+    display:table;
+}
+.container:after {
+    clear:both
+}
+.container-fluid {
+    margin-left:auto;
+    margin-right:auto
+}
+.container-fluid:before,
+.container-fluid:after {
+    content:" ";
+    display:table
+}
+.container-fluid:after {
+    clear:both
+}
+
+.row:after {
+    clear:both
+}
+
+.width-100{
+    width: 100%;
+}
+
+li,li:hover{
+    list-style: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+ul,li,section,article,nav,a,div,p,span,header,footer,aside,body,htags,
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color:#fff;
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+/**************** font-family ******************/
+
+@font-face {
+    font-family:'yekan';
+    src:url('../fonts/Yekan.eot');
+    src:url('../fonts/Yekan.eot?#iefix') format('eot'),
+    url('../fonts/Yekan.woff') format('woff'),
+    url('../fonts/Yekan.ttf') format('ttf');
+    font-weight:300
+}
+
+@font-face {
+    font-family:'yekanBoom';
+    src:url('../fonts/Yekan_Boom.eot');
+    src:url('../fonts/Yekan_Boom.eot?#iefix') format('eot'),
+    url('../fonts/Yekan_Boom.woff') format('woff'),
+    url('../fonts/Yekan_Boom.ttf') format('ttf');
+    font-weight:300
+}
+
+/**************** text-align ******************/
+
+.align-center{
+     text-align: center;
+}
+.align-right{
+    text-align: center;
+}
+.align-left{
+    text-align: center;
+}
+.align-justify{
+    text-align: center;
+}
+
+/**************** Display ******************/
+
+.display-b{
+    display: block;
+}
+.display-ib{
+    display: inline-block;
+}
+
+/**************** float ******************/
+
+.fr{
+    float: right;
+}
+
+.fl{
+    float: left;
+}
+
+
+
